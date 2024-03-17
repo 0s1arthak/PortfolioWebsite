@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <!-- In navbar we have broadly 2 items which contain first a name and second contains 3 things contact us and all -->
+        <!-- Now le us continue further, let us name the 2 compoenents as navlogo and navitems-->
+        <div class="container">
+            <div class="navbar">
+                <div class="logo-container">
+                    <img src="NavLogo.jpg" class="logo">
+                    <div class="logotext">ohn Doe</div>
+                </div>
+                <div class="nav-items">
+                    <div><a href="#projects">Projects</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#contactme">Contact Me</a></div>
+                </div>
+            </div>
+
+            <div class="hero-section">
+                <div class="absolute faded-text">John Doe</div>
+                <div class="hero-section-left">
+                    <div class="hero-section-heading">Hii!! John Doe</div>
+                   
+                    <div class="hero-section-heading hero-section-sub-heading">
+                        I am a <span class="role"></span>
+                    </div>
+
+                    <div class="hero-section-description">
+                        I am a software developer and here is my portfolio website.Here you will
+                        learn about my journey as a software developer.
+                    </div>
+                    <div class="btn-pink" id="btn">Hire me</div>
+                </div>
+
+                <div class="hero-section-right">
+                    <div class="absolute icons icon-dots">
+                        <img src="dots.png" alt="">
+                    </div>
+                    <div class="absolute icons icon-cube">
+                        <img src="cube.png" alt="">
+                    </div>
+                    <div class="absolute icons icon-circle">
+                        <img src="circle.png" alt="">
+                    </div>
+                    <div class="absolute icons icon-zigzags">
+                        <img src="zigzags.png" alt="">
+                    </div>
+                    <div class="absolute icons icon-plus">
+                        <img src="plus.png" alt="">
+                    </div>
+                    <div class="user-image">
+                        <img src="UserImage.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- Most important thing is that we want to give whole 100vh to the project section and since we have given 1200px width for container we have not put project section under the container -->
+        
+        
+        <!-- Following div is for project section which will contain aall the four cards-->
+        <div class="project-section">
+            <!-- for the heading -->
+            <h2 class="page-header">Projects</h2>
+
+            <!-- for the project cards -->
+            <div class="project-container">
+                <!-- project card 1 -->
+                <div class="project-card" id="project1">
+                    <!-- Project number 1 which appears when we hover on it -->
+                    <div class="project-number project-number-right">01</div>
+                    <!-- For content which contains icons and heading and then subheading then explore and then icons of github and more -->
+                    <div class="project-content project-content-left">
+                        <!-- Bohot saare icons in the content which are skills -->
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="HTML.png" alt="">
+                            <img class="project-skill" src="CSS.png" alt="">
+                            <img class="project-skill" src="Javascript.png" alt="">
+                            <img class="project-skill" src="Express.png" alt="">
+                            <img class="project-skill" src="NextJsCircle.png" alt="">
+                            <img class="project-skill" src="Tailwind.png" alt="">
+                            <img class="project-skill" src="Nodejs.png" alt="">
+                            <img class="project-skill" src="Mongodb.jpeg" alt="">
+                            <img class="project-skill" src="Redux.png" alt="">
+                            <img class="project-skill" src="Vercel.png" alt="">
+                        </div>
+
+                        <h2 class="project-heading">Tint & Orange</h2>
+                        <div class="project-subHeading">It is a car modification company which provid you sheets to protect your car from scratches</div>
+
+                        <!-- button group which contains button and 2 icons -->
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="project2">
+                    <!-- Project number 1 which appears when we hover on it -->
+                    <div class="project-number project-number-left">02</div>
+                    <!-- For content which contains icons and heading and then subheading then explore and then icons of github and more -->
+                    <div class="project-content project-content-left">
+                        <!-- Bohot saare icons in the content which are skills -->
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="HTML.png" alt="">
+                            <img class="project-skill" src="CSS.png" alt="">
+                            <img class="project-skill" src="Javascript.png" alt="">
+                            <img class="project-skill" src="Express.png" alt="">
+                            <img class="project-skill" src="NextJsCircle.png" alt="">
+                            <img class="project-skill" src="Tailwind.png" alt="">
+                            <img class="project-skill" src="Nodejs.png" alt="">
+                            <img class="project-skill" src="Mongodb.jpeg" alt="">
+                            <img class="project-skill" src="Redux.png" alt="">
+                            <img class="project-skill" src="Vercel.png" alt="">
+                        </div>
+
+                        <h2 class="project-heading">Tint & Orange</h2>
+                        <div class="project-subHeading">It is a car modification company which provid you sheets to protect your car from scratches</div>
+
+                        <!-- button group which contains button and 2 icons -->
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="project3">
+                    <!-- Project number 1 which appears when we hover on it -->
+                    <div class="project-number project-number-right">03</div>
+                    <!-- For content which contains icons and heading and then subheading then explore and then icons of github and more -->
+                    <div class="project-content project-content-left">
+                        <!-- Bohot saare icons in the content which are skills -->
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="HTML.png" alt="">
+                            <img class="project-skill" src="CSS.png" alt="">
+                            <img class="project-skill" src="Javascript.png" alt="">
+                            <img class="project-skill" src="Express.png" alt="">
+                            <img class="project-skill" src="NextJsCircle.png" alt="">
+                            <img class="project-skill" src="Tailwind.png" alt="">
+                            <img class="project-skill" src="Nodejs.png" alt="">
+                            <img class="project-skill" src="Mongodb.jpeg" alt="">
+                            <img class="project-skill" src="Redux.png" alt="">
+                            <img class="project-skill" src="Vercel.png" alt="">
+                        </div>
+
+                        <h2 class="project-heading">Tint & Orange</h2>
+                        <div class="project-subHeading">It is a car modification company which provid you sheets to protect your car from scratches</div>
+
+                        <!-- button group which contains button and 2 icons -->
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="project4">
+                    <!-- Project number 1 which appears when we hover on it -->
+                    <div class="project-number project-number-left">04</div>
+                    <!-- For content which contains icons and heading and then subheading then explore and then icons of github and more -->
+                    <div class="project-content project-content-left">
+                        <!-- Bohot saare icons in the content which are skills -->
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="HTML.png" alt="">
+                            <img class="project-skill" src="CSS.png" alt="">
+                            <img class="project-skill" src="Javascript.png" alt="">
+                            <img class="project-skill" src="Express.png" alt="">
+                            <img class="project-skill" src="NextJsCircle.png" alt="">
+                            <img class="project-skill" src="Tailwind.png" alt="">
+                            <img class="project-skill" src="Nodejs.png" alt="">
+                            <img class="project-skill" src="Mongodb.jpeg" alt="">
+                            <img class="project-skill" src="Redux.png" alt="">
+                            <img class="project-skill" src="Vercel.png" alt="">
+                        </div>
+
+                        <h2 class="project-heading">Tint & Orange</h2>
+                        <div class="project-subHeading">It is a car modification company which provid you sheets to protect your car from scratches</div>
+
+                        <!-- button group which contains button and 2 icons -->
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="skills" class="container skills-container">
+            <div class="skill-fade-text">Skills</div>
+
+            <div class="skill-container-left">
+                <h2 class="skill-heading">
+                    <span class="caps">M</span>e and
+                    <br/>
+                    MyTech Stack
+                </h2>
+                <div class="skill-subHeading">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque necessitatibus non tenetur obcaecati nam nesciunt beatae nisi rerum. Laboriosam, esse.
+                    </p>
+                    
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, provident sequi expedita dolore enim voluptatibus reprehenderit aperiam laudantium odit fugiat, magni officiis dolor ullam? Ipsum!
+                    </p>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus rerum cum minus laboriosam illum voluptate atque optio? Est dolore illo similique porro explicabo voluptate iusto aspernatur, quae nobis? Eligendi!
+                    </p>
+                </div>
+            </div>
+
+            <div class="skill-container-right">
+                <img src="blob vector.png" alt="" class="blob-style">
+                <img class="skills-logo" src="HTML.png" alt="">
+                <img class="skills-logo" src="CSS.png" alt="">
+                <img class="skills-logo" src="Javascript.png" alt="">
+                <img class="skills-logo" src="Express.png" alt="">
+                <img class="skills-logo" src="NextJsCircle.png" alt="">
+                <img class="skills-logo" src="Tailwind.png" alt="">
+                <img class="skills-logo" src="Nodejs.png" alt="">
+                <img class="skills-logo" src="Mongodb.jpeg" alt="">
+                <img class="skills-logo" src="Redux.png" alt="">
+                <img class="skills-logo" src="Vercel.png" alt="">                
+            </div>
+
+
+        </div>
+
+
+        <div class="contactus-form-container">
+            <div class="container">
+                <h1 class="contactus-heading">Contact me</h1>
+                <h3 class="contactus-subHeading">
+                    Questions,thoughts,just want to say hello?
+                </h3>
+
+
+                <div class="contactus-form-container">
+                    <form action="" class="form">
+                        <div class="formfield-container">
+                            <input type="text" name="name" class="formfield" id="" placeholder="Enter your name"/>
+                            <input type="email" name="email" id="" placeholder="Enter your email address" class="formfield"/>
+                            <input type="text" name="subject" id="" placeholder="Enter your subject" class="formfield">
+                            <textarea name="message" id="" cols="30" rows="10" placeholder="Enter your message" class="formfield formfield-textarea"></textarea>
+
+                        </div>
+
+                        <div>
+                            <button type="submit" class="btn-pink" id="submit-btn">
+                                Send Message <i class="submit-icon fa-solid fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="footer-faded-text">John Doe</div>
+
+                    <div class="link-wrapper">
+                        <div>
+                            <a href="#projects">Projects</a>
+                        </div>
+                        <div>
+                            <a href="#skills">Skills</a>
+                        </div>
+                        <div>
+                            <a href="#contactme">Contact me</a>
+                        </div>
+                    </div>
+
+
+                    <div class="icon-wrapper">
+                        <i class="fa-brands fa-linkedin icon"></i>
+                        <i class="fa-brands fa-github icon"></i>
+                        <i class="fa-brands fa-twitter icon"></i>
+                        <i class="fa-brands fa-instagram icon"></i>
+                        <i class="fa-brands fa-envelope icon"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+      var typeData = new Typed(".role", {
+        strings: [
+          "Full Stack Developer",
+          "Web Developer",
+          "UI-UX Designer",
+          "Backend Developer",
+          "Coder",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+      });
+    </script>
+</body>
+</html>
